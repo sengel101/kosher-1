@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {Restaurant} from './models/restaurant';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +6,6 @@ import {Restaurant} from './models/restaurant';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  rests: Restaurant[];
 
   constructor() {}
 
