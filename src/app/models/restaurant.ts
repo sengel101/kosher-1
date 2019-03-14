@@ -13,4 +13,13 @@ export class Restaurant {
   reviews: Review[];
   location: Address;
   // endregion
+  // region Methods
+  constructor(a?) {
+    this.name = a.name;
+    this.website = a.website;
+    this.phone = a.phone;
+    this.rating = a.rating;
+    this.priceRange = a.priceRange;
+  }
+  // endregion
 }
